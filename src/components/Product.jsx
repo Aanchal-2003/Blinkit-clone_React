@@ -11,7 +11,7 @@ export default function Product() {
     const [milk, setMilk] = useState([])
     const [accessories, setAccessories] = useState([])
     async function fetchProducts() {
-        const response = await fetch(import.meta.env.VITE_API_URl)
+        const response = await fetch(import.meta.env.VITE_API_URL)
         const data = await response.json()
 
 
